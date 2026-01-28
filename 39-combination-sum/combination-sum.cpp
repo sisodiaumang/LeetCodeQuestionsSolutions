@@ -26,7 +26,6 @@ public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
         vector<int> combination;
-        int size=candidates.size();
         solver(candidates,target,0,ans,combination);
         return ans;
     }
