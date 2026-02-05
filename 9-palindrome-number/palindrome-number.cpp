@@ -8,8 +8,6 @@ public:
             b=b*10+a%10;
             a/=10;
         }
-        if(b==x) return true;
-        else return false;
-        
+        return b==x; 
     }
 };
