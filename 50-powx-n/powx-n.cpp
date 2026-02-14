@@ -6,14 +6,14 @@ public:
             n=n*(-1);
             x=1/x;
         }
-        // while(n>0){
-        //     if(n%2==1){
-        //         ans=ans*x;
-        //     }
-        //     x=x*x;
-        //     n=n/2;
-        // }
-        ans=pow(x,n);
+        while(n>0){
+            if(n%2==1){
+                ans=ans*x;
+            }
+            x=x*x;
+            n=n/2;
+        }
+        // ans=pow(x,n);
         return ans;
     }
 };
