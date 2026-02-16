@@ -18,6 +18,7 @@ class Solution {
     public:
         int findPeakElement(vector<int>& nums) {
             int size=nums.size()-1;
+            if(size==0) return 0;
             int start=0;
             int mid;
             while(start < size){
