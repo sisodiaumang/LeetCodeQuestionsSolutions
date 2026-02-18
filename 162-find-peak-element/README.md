@@ -4,7 +4,7 @@
 
 <p>You may imagine that <code>nums[-1] = nums[n] = -&infin;</code>. In other words, an element is always considered to be strictly greater than a neighbor that is outside the array.</p>
 
-<p>You must write an algorithm that runs in <code>O(log n)</code> time.</p>
+<p>You must write an algorithm that runs in <code>O(log n)</code> time</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
