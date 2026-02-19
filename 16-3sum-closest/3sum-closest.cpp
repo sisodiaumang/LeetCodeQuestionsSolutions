@@ -6,9 +6,10 @@ public:
         int size=nums.size()-1;
         long long current=INT_MAX;
         int front;
+        int back;
         for(int i=0;i<size-1;i++){
             front=i+1;
-        int back=size;
+            back=size;
             while(front<back){
                 sum=nums[i]+nums[back]+nums[front];
                 if(abs(target - sum) < abs(target - current)) {
