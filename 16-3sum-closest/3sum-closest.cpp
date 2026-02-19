@@ -5,8 +5,9 @@ public:
         int sum;
         int size=nums.size()-1;
         long long current=INT_MAX;
+        int front;
         for(int i=0;i<size-1;i++){
-            int front=i+1;
+            front=i+1;
         int back=size;
             while(front<back){
                 sum=nums[i]+nums[back]+nums[front];
