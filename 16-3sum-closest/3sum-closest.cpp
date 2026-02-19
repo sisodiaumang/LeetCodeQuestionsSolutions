@@ -5,7 +5,7 @@ public:
         int sum;
         int size=nums.size()-1;
         int current=999999;
-        for(int i=0;i<size;i++){
+        for(int i=0;i<size-1;i++){
             int front=i+1;
         
         int back=size;
