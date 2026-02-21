@@ -8,7 +8,6 @@ public:
                 nums[ptr2]=nums[i];
             }
         }
-
         return ++ptr2;
     }
 };
