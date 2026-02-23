@@ -9,12 +9,7 @@ public:
                 nums[index]=nums[i];
                 index++;
             }
-            else{
-                count++;
-            }
         }
-        // sort(nums.begin(),nums.end());
-        
-        return size-count;
+        return index;
     }
 };
