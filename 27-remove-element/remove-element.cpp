@@ -9,7 +9,6 @@ public:
                 index++;
             }
         }
-        nums.resize(index);
         return index;
     }
 };
