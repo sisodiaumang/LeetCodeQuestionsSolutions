@@ -3,7 +3,6 @@ public:
     int lengthOfLastWord(string s) {
         int c=0;
         int size=s.size();
-        bool last=false;
         while(size > 0 && s[size - 1] == ' '){
             size--;
         }
