@@ -6,7 +6,7 @@
 <strong>Output:</strong> [["a","a","b"],["aa","b"]]
 </pre><p><strong class="example">Example 2:</strong></p>
 <pre><strong>Input:</strong> s = "a"
-<strong>Output:</strong> [["a"]]
+<strong>Output:-</strong> [["a"]]
 </pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
