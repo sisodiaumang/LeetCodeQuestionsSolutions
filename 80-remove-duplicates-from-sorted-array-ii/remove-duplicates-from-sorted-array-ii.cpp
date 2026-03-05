@@ -7,7 +7,7 @@ public:
         int p2=2;
         while(p2<size){
             if(nums[p2]!=nums[p1-2]){
-                swap(nums[p2],nums[p1]);
+                nums[p1] = nums[p2];
                 p2++;
                 p1++;
             }
